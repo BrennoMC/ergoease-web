@@ -1,0 +1,109 @@
+@use '../styles/variables.scss';
+
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__content-left {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        width: 75%;
+        height: 100%;
+        background-color: variables.$primary-color;
+
+        &__logo-part-one {
+            display: flex;
+            height: 60%;
+
+            @media screen and (max-width: 1080px) {
+                height: 50%;
+            };
+
+            @media screen and (max-width: 950px) {
+                height: 40%;
+            };
+
+            @media screen and (max-width: 775px) {
+                height: 35%;
+            };
+        };
+
+        &__content-info {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            width: 25%;
+            height: 40%;
+            margin-right: 25%;
+
+            h1 {
+                color: variables.$primary-text;
+                font-size: 2em;
+                font-family: 'Poppins', sans-serif;
+                margin: 0;
+            }
+
+            h2 {
+                color: variables.$primary-text;
+                font-size: 1em;
+                font-family: 'Poppins', sans-serif;
+                margin: 0;
+            }
+
+            &__logo {
+                display: flex;
+                align-self: flex-start;
+                width: 70%;
+                height: 70%;
+            }
+
+            &__justify {
+                width: 100%;
+                align-items: flex-start;
+                justify-content: flex-start;
+
+                &__password {
+                    text-decoration: none;
+                    font-family: 'Poppins', sans-serif;
+                    color: #1B4397;
+                }
+            }
+
+            &__title {
+                height: 10%;
+            }
+        }
+    }
+
+    &__content-right {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        width: 25%;
+        background-color: variables.$background-blue;
+        height: 100%;
+
+        &__logo-part-two {
+            display: flex;
+            height: 60%;
+
+            @media screen and (max-width: 1080px) {
+                height: 50%;
+            };
+
+            @media screen and (max-width: 950px) {
+                height: 40%;
+            };
+
+            @media screen and (max-width: 775px) {
+                height: 35%;
+            };
+        }
+    }
+}
