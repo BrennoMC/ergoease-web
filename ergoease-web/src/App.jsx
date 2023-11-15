@@ -1,10 +1,11 @@
-import './styles/main.scss';
+import './pages/styles/main.scss'
+import LoginPage from './pages/LoginPage/LoginPage';
 
 function App() {
 
   return (
     <>
-      <h1>Hello World!</h1>
+      <LoginPage></LoginPage>
     </>
   )
 }
