@@ -26,7 +26,7 @@ function LoginPage() {
                   /> 
 
                   <div className='container__content-left__content-info__justify'>
-                    <a href="" className='container__content-left__content-info__justify__password'>
+                    <a href="/PasswordRecovery" className='container__content-left__content-info__justify__password'>
                       Esqueci minha senha
                     </a>
                   </div>
