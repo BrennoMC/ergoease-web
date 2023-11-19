@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 .container_1 {
   display: flex;
   align-items: flex-start;
@@ -50,41 +50,7 @@
     letter-spacing: -0.05px;
     height: 0;
     color: red;
+    margin-bottom: 5%;
   }
 
-
-=======
-.container_1 {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: column;
-  width: 100%;
-  margin: 5;
-
-  &__input {
-    padding: 0px 10px;
-    height: 100%;
-    background-color: #4c4c56;
-    width: 100%;
-    font-size: 14px;
-    border-radius: 10px;
-    color: aliceblue;
-    border: 0;
-    margin: 0;
-    font-family: 'Poppins', sans-serif;
-  }
-
-  &__label {
-    display: block;
-    font-weight: 600;
-    font-family: 'Poppins', sans-serif;
-    font-size: 14px;
-    line-height: 40px;
-    letter-spacing: -0.05px;
-    color: white;
-  }
-
-
->>>>>>> 030b76a9ad0add187e19a1919a02265d420955fb
 }
