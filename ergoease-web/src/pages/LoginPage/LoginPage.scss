@@ -39,7 +39,7 @@
             justify-content: center;
             flex-direction: column;
             width: 25%;
-            height: 40%;
+            height: 50%;
             margin-right: 25%;
 
             h1 {
@@ -89,7 +89,7 @@
         align-items: center;
         justify-content: flex-start;
         width: 25%;
-        background-color: variables.$secondary-backgroud-user;
+        background-color: variables.$background-blue;
         height: 100%;
 
         &__logo-part-two {
